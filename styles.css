@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(228, 150, 49);  
+    font-family: 'Dancing Script', cursive;
+} 
+h1 {
+    font-size: 2rem;
+}
+h2 {
+    font-size: 1.75rem;
+}
+h3 {
+    font-size: 1.5rem;
+}
+h4 {
+    font-size: 1.25rem;
+    font-family:'poppins', sans-serif;
+}
+
+h5 {
+    font-size: 1rem;
+    font-family:'poppins', sans-serif;
+}
+h6 {
+    font-size: 0.85rem;
+    font-family:'poppins', sans-serif;
+}
+p {
+    font-family:'poppins', sans-serif;
+}
+
+li, a, button {
+    font-weight: 500;
+    font-size: 27px;
+    color: black;
+    text-decoration: none;
+    list-style: none;
+}
+header {
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+.nav_links li a:hover {
+    color: crimson;    
+}
+button {
+    padding: 9px 25px;
+    background-color: crimson;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+button:hover {
+    background-color: rgb(241, 4, 4);
+}
+
+
+section.showcase {
+    background-image: url('Header-img.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 350px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    transition: 0.5s;
+    justify-content: center;
+    box-shadow:  0 8px 26px 0 rgba(0,0,0,0.4);
+}
+
+div.head-text {
+    background: none;
+    padding: 20px 30px;
+}
+div.head-text h1, div.head-text h2 {
+    background: none;
+    text-align: center;
+}
+section.recetas {
+    align-items: center;
+    justify-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    margin: 10px 20px 40px;
+}
+section.recetas h2 {
+    grid-column: 2/3;
+    grid-row: 1; 
+}
+.container p {
+    font-size: 15px;
+}
+.card {
+    grid-row: 2;
+    background-color: aliceblue;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+  }  
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transform: translateY(-15px);
+  }
+.container {
+    padding: 2px 16px;
+  }
+
+section.content {
+    text-align: center;
+    background-color: aliceblue;
+  }
+
+div.box {
+    padding: 0 30px;
+  }
+div.box h2 {
+    margin-top: 25px;
+}
+div.box p {
+    margin: 25px;
+}
+.imgredonda {
+    width:300px;
+    height:300px;
+    margin: 50px;
+    border-radius:150px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+}
+.grid-container {
+
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 15px;
+    padding: 10px;
+    margin: 15px;
+    text-align: center;
+    align-items: center;
+}
+.grid-container h2 {
+    grid-column: 1 / span 2;
+    margin: 15px;
+}
+.grid-item {
+    width: 500px;
+}
+.grid-container img {
+    align-items: center;
+}
+.grid-item1 {
+    grid-row: 4 / 4 span;
+}
+.grid-item1 li {
+    margin: 20px;
+}
+section.video {
+    margin: 50px;
+    text-align: center;
+}
+
+
+
+
+
+  footer {
+    background-color: rgb(0, 0, 58);
+    align-items: center;
+    justify-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 250px;
+    width: 100%;
+    padding: 10px;
+  }
+  footer div {
+    background: none;
+  }
+  footer h2, footer p, footer nav, footer ul, footer li, footer i, footer a {
+    font-weight: 200;
+    background: none;
+    color: aliceblue;
+  }
