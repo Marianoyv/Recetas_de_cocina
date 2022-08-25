@@ -6,9 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <title>Receta de Ensalada</title>
-    <link rel="icon" href="/Recetas de cocina/img/icon.ico">
+    <link rel="icon" href="/img/icon.ico">
+    <meta name="description" content="Las recetas de Elsa Pito, faciles, ricas y practica.">
+    <script src="https://kit.fontawesome.com/70dc13288a.js" crossorigin="anonymous"></script>
 </head>
 <body>
+
+    <!--Nav Bar-->
 
     <header>
         <nav>
@@ -18,16 +22,85 @@
                 <li><a href="Pancho.html">Panchos</a></li>
             </ul>
         </nav>
-        <a href="Index.html"><img class="logo" src="/Recetas de cocina/img/Logo.png" alt="logo"></a> 
-        <a href="Contacto.html" class="cta"><button>Contacto</button></a>
+        <a href="Index.html"><img class="logo" src="img/Logo.webp" alt="logo"></a> 
+        <a href="Contacto.html" class="btn">Contacto</a>
     </header>
 
+    <!-- Recetario -->
 
+    <section class="grid-container">
+        <h2>Receta de Ensalada</h2>
+        <div class="grid-item">
+        <h3>Ingredientes</h3>
+        <ul>
+            <li>Brocoli</li>
+            <li>Esparragos</li>
+            <li>Zanahoria</li>
+            <li>Condimentos</li>
+        </ul>
+        </div>
+        <div class="grid-item"><img src="/img/verduras.webp" alt="verduras" width="350" height="250px"></div>
+        <h2>Preparacion</h2>
+        <div class="grid-item1">
+        <ol>
+            <li>1. Lave los vegetales que selecciono</li>
+            <li>2. Corte los vegetales</li>
+            <li>3. Agregue condimentos y revuelva</li>
+        </ol>
+    </div>
+    <div class="grid-item2">
+        <p>Escoja vegetales de colores variados y lave, y deje escurrir</p>
+    </div>
+    <div class="grid-item3">
+        <p>Corte los vegetales</p>
+    </div>
+    <div class="grid-item4">
+        <p>Agregue aceite y vinagre, sal y pimienta, puede remplazar el vinagre por jugo de limon o naranja, revuelva y listo!</p>
+</div>
+    </section>
+    <section class="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/gGuxB9yjPmg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></section>
+
+    <!--Cartas-->
+    
+    <section class="recetas">
+        <h2>Recetas de doña Elsa</h2>
+        <div class="card" id="polenta">
+            <a href="Polenta.html">
+                <img src="/img/polenta.webp" alt="polenta" style="width: 200px;" height="200px">
+            <div class="container">
+              <h3><b>Polenta</b></h3>
+              <p>Calorias: 450 kcal</p>
+            </a>
+            </div>
+          </div>
+        
+          <div class="card" id="pancho">
+            <a href="Pancho.html">
+            <img src="/img/pancho.webp" alt="pancho" style="width: 200px;" height="200px">
+            <div class="container">
+              <h3><b>Pancho</b></h3>
+              <p>Calorias: 375 kcal</p>
+            </a>
+            </div>
+          </div>
+          
+    </section>
+
+    <!--Footer-->
+    
     <footer>
         <div>
             <h2>Mariano Tami</h2>
             <p>Copyright &copy; 2022</p>
             <p><i>Para Codo a Codo</i></p>
+        </div>
+        <div>
+            <nav>
+                <ul>
+                    <li><a href="Index.html">Home</a></li>
+                    <li><a href="Contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
         </div>
         <div>
             <nav>
@@ -38,11 +111,10 @@
                 </ul>
             </nav>
         </div>
-        <div>
-            <ul>
-                <li><a href="Index.html">Home</a></li>
-                <li><a href="Contacto.html">Contacto</a></li>
-            </ul>
+        <div class="social">
+            <a href="https://github.com/Marianoyv" target="_blank"><i class="fa-brands fa-github fa-lg"></i></a>
+            <a href="https://www.instagram.com/marianoyv/" target="_blank"><i class="fa-brands fa-instagram fa-lg"></i></a>
+            <a href="https://www.facebook.com/mariano.tami.73" target="_blank"><i class="fa-brands fa-facebook fa-lg"></i></a>
         </div>
     </footer>
     

@@ -6,9 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <title>Receta de Pancho</title>
-    <link rel="icon" href="/Recetas de cocina/img/icon.ico">
+    <link rel="icon" href="/img/icon.ico">
+    <meta name="description" content="Las recetas de Elsa Pito, faciles, ricas y practica.">
+    <script src="https://kit.fontawesome.com/70dc13288a.js" crossorigin="anonymous"></script>
 </head>
 <body>
+
+    <!--Nav Bar-->
 
     <header>
         <nav>
@@ -18,11 +22,69 @@
                 <li><a href="Pancho.html">Panchos</a></li>
             </ul>
         </nav>
-        <a href="Index.html"><img class="logo" src="/Recetas de cocina/img/Logo.png" alt="logo"></a> 
-        <a href="Contacto.html" class="cta"><button>Contacto</button></a>
+        <a href="Index.html"><img class="logo" src="img/Logo.webp" alt="logo"></a> 
+        <a href="Contacto.html" class="btn">Contacto</a>
     </header>
 
+    <!-- Recetario -->
+    <section class="grid-container">
+        <h2>Receta de Panchos</h2>
+        <div class="grid-item">
+        <h3>Ingredientes</h3>
+        <ul>
+            <li>Pan</li>
+            <li>Chorizo</li>
+            <li>Vegetales</li>
+        </ul>
+        </div>
+        <div class="grid-item"><img src="/img/panchos.webp" alt="polenta" width="350px" height="250px"></div>
+        <h2>Preparacion</h2>
+        <div class="grid-item1">
+        <ol>
+            <li>1. Cocina el chorizo a la parrilla o plancha</li>
+            <li>2. Corte los vegetales</li>
+            <li>3. Tueste el pan</li>
+        </ol>
+    </div>
+    <div class="grid-item2">
+        <p>A la parrila o a la plancha, cocino el chorizo mientras hace pequeños agujeros para que pueda sudar</p>
+    </div>
+    <div class="grid-item3">
+        <p>Lave y corte vegetales como cebolla morada, tomate, lechuga, y otros vegetales a asu gusto</p>
+    </div>
+    <div class="grid-item4">
+        <p>aproveche la parrilla o la plancha para tostar el pan, cuando este crujiente armelo en el orden que desee, y ahi tiene un buen pancho</p>
+</div>
+    </section>
+    <section class="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/ZfhRPeU8g-E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></section>
 
+    <!--Cartas-->
+
+    <section class="recetas">
+        <h2>Recetas de doña Elsa</h2>
+        <div class="card" id="polenta">
+            <a href="Polenta.html">
+                <img src="/img/polenta.webp" alt="polenta" style="width: 200px;" height="200px">
+            <div class="container">
+              <h3><b>Polenta</b></h3>
+              <p>Calorias: 450 kcal</p>
+            </a>
+            </div>
+          </div>
+        
+            <div class="card" id="Ensalada">
+            <a href="Ensalada.html">
+            <img src="/img/ensalada.webp" alt="ensalada" style="width: 200px;" height="200px">
+            <div class="container">
+              <h3><b>Ensalada</b></h3>
+              <p>calorias: 150kcal</p>
+            </a>
+            </div>
+          </div>
+        
+    </section>
+
+    <!--Footer-->
 
     <footer>
         <div>
@@ -33,17 +95,24 @@
         <div>
             <nav>
                 <ul>
+                    <li><a href="Index.html">Home</a></li>
+                    <li><a href="Contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div>
+            <nav>
+                <ul>
                     <li><a href="Polenta.html">Polenta</a></li>
                     <li><a href="Pancho.html">Pancho</a></li>
                     <li><a href="Ensalada.html">Ensalada</a></li>
                 </ul>
             </nav>
         </div>
-        <div>
-            <ul>
-                <li><a href="Index.html">Home</a></li>
-                <li><a href="Contacto.html">Contacto</a></li>
-            </ul>
+        <div class="social">
+            <a href="https://github.com/Marianoyv" target="_blank"><i class="fa-brands fa-github fa-lg"></i></a>
+            <a href="https://www.instagram.com/marianoyv/" target="_blank"><i class="fa-brands fa-instagram fa-lg"></i></a>
+            <a href="https://www.facebook.com/mariano.tami.73" target="_blank"><i class="fa-brands fa-facebook fa-lg"></i></a>
         </div>
     </footer>
     

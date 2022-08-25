@@ -6,23 +6,116 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <title>Receta de Polenta</title>
-    <link rel="icon" href="/Recetas de cocina/img/icon.ico">
+    <link rel="icon" href="/img/icon.ico">
+    <meta name="description" content="Las recetas de Elsa Pito, faciles, ricas y practica.">
+    <script src="https://kit.fontawesome.com/70dc13288a.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
+    <!--Nav Bar-->
+    
     <header>
-    <nav>
-        <ul class="nav_links">
-            <li><a href="Polenta.html">Polenta</a></li>
-            <li><a href="Ensalada.html">Ensalada</a></li>
-            <li><a href="Pancho.html">Panchos</a></li>
-        </ul>
-    </nav>
-    <a href="Index.html"><img class="logo" src="/Recetas de cocina/img/Logo.png" alt="logo"></a> 
-    <a href="Contacto.html" class="cta"><button>Contacto</button></a>
-</header>
+        <nav>
+            <ul class="nav_links">
+                <li><a href="Polenta.html">Polenta</a></li>
+                <li><a href="Ensalada.html">Ensalada</a></li>
+                <li><a href="Pancho.html">Panchos</a></li>
+            </ul>
+        </nav>
+        <a href="Index.html"><img class="logo" src="img/Logo.webp" alt="logo"></a> 
+        <a href="Contacto.html" class="btn">Contacto</a>
+    </header>
+    
+    <!--Contacto Showcase-->
 
+<section class="about-us">
+    <video src="/img/video.mp4" autoplay loop muted></video>
+    <h1>La Cocina de Elsa Pito</h1>
 
+<div class="contact-box">
+    <form>
+        <h4>Incsribite a nuestro Newsletter</h4>
+        <h5>Recibi recetas semanalmente de forma gratuita</h5>
+        <input type="text" class="input-field" placeholder="Nombre">
+        <input type="text" class="input-field" placeholder="Mail">
+        <input type="text" class="input-field" placeholder="Comentario">
+        <textarea type="text" class="input-field textarea-field" cols="30" rows="10" placeholder="Mensaje"></textarea>
+        <button type="button" class="btn">Enviar</button>
+        </form>
+</div>
+</section>
+
+<!-- Ubicacion Maps -->
+
+<section class="maps">
+    <h2>Nuestras Sucursales</h2>
+    <div class="mapas">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d384686.6541461824!2d-71.88121654126998!3d-41.12656856520031!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x961a7b1520c860e5%3A0x8210ae97cb7b9a65!2sSan%20Carlos%20de%20Bariloche%2C%20R%C3%ADo%20Negro!5e0!3m2!1ses-419!2sar!4v1661267256181!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d505934.21377105766!2d98.07973358191649!3d7.8309253752515495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x305031e2c462524f%3A0xe9ca9a85063dba21!2sProvincia%20de%20Phuket%2C%20Tailandia!5e0!3m2!1ses-419!2sar!4v1661267706170!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d472321.7330473417!2d113.84750719828496!3d22.35311761674577!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3403e2eda332980f%3A0xf08ab3badbeac97c!2sHong%20Kong!5e0!3m2!1ses-419!2sar!4v1661267757647!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d824765.5356541545!2d-96.96117228291975!3d36.148534285900375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87b692b8ddd12e8f%3A0xe76910c81bd96af7!2sTulsa%2C%20Oklahoma%2C%20EE.%20UU.!5e0!3m2!1ses-419!2sar!4v1661267787680!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+</section>
+
+<!--Formulario Codo a Codo -->
+
+<p align=center>&nbsp;</p>
+<h1 align=center><font size="+1">The following information has been sent as your
+  feedback:</font></h1>
+
+<table border="1" align=center width="226">
+  <tr>
+    <th align="center">Form Field</th>
+    <th align="center">Field Value</th>
+  </tr>
+
+<script language="javascript">
+var args = location.search.substr(1).split('&');
+for (var i = 0; i < args.length; ++i) {
+  var parts = args[i].split('=');
+  if (parts != null) {
+    var field = parts[0];
+    var value = parts[1];
+    if (value == null) {
+      value = "null"
+    }
+    else {
+      value = '"' + unescape(value.replace(/\+/g, ' ')) + '"';
+    }
+
+    document.writeln('<tr><td align="center">' + field + '</td>');
+    document.writeln('<td align="center">' + value + '</td></tr>');
+  }
+}
+</script>
+
+<noscript>
+<tr><td>
+<p>You need to turn on Javascript in your browser.</p>
+
+<p>In Microsoft Internet Explorer 4 or greater:</p>
+<ul>
+<li>From the "Tools" menu (in IE 4, it's the "View" menu), select "Internet Options".</li>
+<li>Click on the "Security" tab.</li>
+<li>Click on the "Custom Level" button. (In IE 4, select "Custom"
+and then click on "Settings...".)</li>
+<li>Under "Active scripting" make sure "Enable" is selected.</li>
+</ul>
+
+<p>In Netscape version 4 or greater:</p>
+<ul>
+<li>From the <b>Edit</b> menu, select <b>Preferences</b>.</li>
+<li>In the <b>Category</b> list on the left, click on the word "Advanced".</li>
+<li>In the panel on the right, make sure "Enable JavaScript" is checked.</li>
+<li>Click the <b>OK</b> button.</li>
+</ul>
+
+</td></tr>
+</noscript>
+
+</table>
+
+<!--Footer-->
 
 <footer>
     <div>
@@ -33,17 +126,24 @@
     <div>
         <nav>
             <ul>
+                <li><a href="Index.html">Home</a></li>
+                <li><a href="Contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div>
+        <nav>
+            <ul>
                 <li><a href="Polenta.html">Polenta</a></li>
                 <li><a href="Pancho.html">Pancho</a></li>
                 <li><a href="Ensalada.html">Ensalada</a></li>
             </ul>
         </nav>
     </div>
-    <div>
-        <ul>
-            <li><a href="Index.html">Home</a></li>
-            <li><a href="Contacto.html">Contacto</a></li>
-        </ul>
+    <div class="social">
+        <a href="https://github.com/Marianoyv" target="_blank"><i class="fa-brands fa-github fa-lg"></i></a>
+        <a href="https://www.instagram.com/marianoyv/" target="_blank"><i class="fa-brands fa-instagram fa-lg"></i></a>
+        <a href="https://www.facebook.com/mariano.tami.73" target="_blank"><i class="fa-brands fa-facebook fa-lg"></i></a>
     </div>
 </footer>
     

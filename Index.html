@@ -1,15 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="img/icon.ico">
     <title>Recetas de Elsa Pito</title>
-    <link rel="icon" href="/Recetas de cocina/img/icon.ico">
+    <meta name="description" content="Las recetas de Elsa Pito, faciles, ricas y practica.">
+    <script src="https://kit.fontawesome.com/70dc13288a.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
+<!--Nav Bar-->
 <header>
     <nav>
         <ul class="nav_links">
@@ -18,74 +21,89 @@
             <li><a href="Pancho.html">Panchos</a></li>
         </ul>
     </nav>
-    <a href="Index.html"><img class="logo" src="/Recetas de cocina/img/Logo.png" alt="logo"></a> 
-    <a href="Contacto.html" class="cta"><button>Contacto</button></a>
+    <a href="Index.html"><img class="logo" src="img/Logo.webp" alt="logo"></a> 
+    <a href="Contacto.html" class="btn">Contacto</a>
 </header>
 
+<!--Showcase-->
 <section class="showcase">
     <div class="head-text">
         <h1>La cocina de Elsa Pito</h1>
-        <h2>Aprende de las recetas mas rapidas y populares de la argentina</h2>
+        <h2>Aprende de las recetas mas rapidas y populares de la Argentina</h2>
     </div>
 </section>
 
+<!--Cartas-->
 <section class="recetas">
-    
     <h2>Recetas de doña Elsa</h2>
+
     <div class="card" id="polenta">
         <a href="Polenta.html">
-            <img src="/Recetas de cocina/img/polenta.jpg" alt="polenta" style="width: 200px;" height="200px">
+            <img src="img/polenta.webp" alt="polenta" width="200" height="200" >
         <div class="container">
-          <h3><b>Polenta</b></h3>
+          <h3>Polenta</h3>
           <p>Calorias: 450 kcal</p>
         </div>
-      </div>
-    </a>
-      <div class="card" id="pancho">
+        </a>
+    </div>
+    
+    <div class="card" id="pancho">
         <a href="Pancho.html">
-        <img src="/Recetas de cocina/img/pancho.png" alt="pancho" style="width: 200px;" height="200px">
+        <img src="img/pancho.webp" alt="pancho" width="200" height="200">
         <div class="container">
-          <h3><b>Pancho</b></h3>
+          <h3>Pancho</h3>
           <p>Calorias: 375 kcal</p>
         </div>
-      </div>
-    </a>
-      <div class="card" id="Ensalada">
+        </a>
+    </div>
+      
+    <div class="card" id="Ensalada">
         <a href="Ensalada.html">
-        <img src="/Recetas de cocina/img/ensalada.png" alt="ensalada" style="width: 200px;" height="200px">
+        <img src="img/ensalada.webp" alt="ensalada" width="200" height="200">
         <div class="container">
           <h3><b>Ensalada</b></h3>
           <p>calorias: 150kcal</p>
         </div>
-      </div>
-    </a>
+        </a>
+    </div>    
 </section>
 
+<!--Contenido-->
 <section class="content">
-    <div class="box">
+    <div class="box1">
         <h2>Hablemos de Elsa Pito</h2>
-        <img src="/Recetas de cocina/img/ElsaPito.jpg" alt="Elsa Pito" class="imgredonda">
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Deleniti maxime sunt quod? Consectetur, hic omnis! Vitae, 
-            fugit! Iure consequatur, reprehenderit id modi dignissimos 
-            exercitationem eaque obcaecati molestiae voluptatem odit architecto.
+        <img src="img/ElsaPito.webp" alt="Elsa Pito" class="imgredonda">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+           Deleniti maxime sunt quod? Consectetur, hic omnis! Vitae, 
+           fugit! Iure consequatur, reprehenderit id modi dignissimos 
+           exercitationem eaque obcaecati molestiae voluptatem odit architecto.
         </p>
-        <img src="/Recetas de cocina/img/bbq.jpg" alt="bbq" width="350px" height="650px">
+    </div>
+    <div class="box2">
+        <img src="img/bbq.webp" alt="bbq" width="350" height="250">
+        <h3>La tradicion nos une</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat 
             numquam amet quos. Blanditiis veniam suscipit at, nobis molestiae
             laudantium dolorum, eos porro quas vero similique tempore explicabo 
             dolore? Repellendus, nam?
         </p>
-        <video src="/Recetas de cocina/img/Elsavid.mp4" loop muted autoplay width="500px" height="350px"></video>  
     </div>
 </section>
 
+<!--Footer-->
 <footer>
     <div>
         <h2>Mariano Tami</h2>
         <p>Copyright &copy; 2022</p>
         <p><i>Para Codo a Codo</i></p>
+    </div>
+    <div>
+        <nav>
+            <ul>
+                <li><a href="Index.html">Home</a></li>
+                <li><a href="Contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
     </div>
     <div>
         <nav>
@@ -96,11 +114,10 @@
             </ul>
         </nav>
     </div>
-    <div>
-        <ul>
-            <li><a href="Index.html">Home</a></li>
-            <li><a href="Contacto.html">Contacto</a></li>
-        </ul>
+    <div class="social">
+        <a href="https://github.com/Marianoyv" target="_blank"><i class="fa-brands fa-github fa-lg" alt="GitHub"></i></a>
+        <a href="https://www.instagram.com/marianoyv/" target="_blank"><i class="fa-brands fa-instagram fa-lg" alt="Instagram"></i></a>
+        <a href="https://www.facebook.com/mariano.tami.73" target="_blank"><i class="fa-brands fa-facebook fa-lg" alt="Facebook"></i></a>
     </div>
 </footer>
 

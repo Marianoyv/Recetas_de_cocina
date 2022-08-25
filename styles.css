@@ -1,6 +1,8 @@
+    /* Universal */
+
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -20,7 +22,6 @@ h4 {
     font-size: 1.25rem;
     font-family:'poppins', sans-serif;
 }
-
 h5 {
     font-size: 1rem;
     font-family:'poppins', sans-serif;
@@ -32,7 +33,6 @@ h6 {
 p {
     font-family:'poppins', sans-serif;
 }
-
 li, a, button {
     font-weight: 500;
     font-size: 27px;
@@ -40,6 +40,9 @@ li, a, button {
     text-decoration: none;
     list-style: none;
 }
+
+    /* Nav Bar */
+
 header {
     height: 150px;
     display: flex;
@@ -63,7 +66,7 @@ header {
 .nav_links li a:hover {
     color: crimson;    
 }
-button {
+a.btn, .btn {
     padding: 9px 25px;
     background-color: crimson;
     border: none;
@@ -75,9 +78,10 @@ button:hover {
     background-color: rgb(241, 4, 4);
 }
 
+    /* Showcase */
 
 section.showcase {
-    background-image: url('Header-img.jpg');
+    background-image: url('Header-img.webp');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -101,6 +105,9 @@ div.head-text h1, div.head-text h2 {
     background: none;
     text-align: center;
 }
+    
+    /* Cartas */
+
 section.recetas {
     align-items: center;
     justify-items: center;
@@ -123,25 +130,38 @@ section.recetas h2 {
     box-sizing: border-box;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-  }  
+}  
 .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     transform: translateY(-15px);
-  }
+}
 .container {
     padding: 2px 16px;
-  }
+}
+
+    /* Contenido */
 
 section.content {
     text-align: center;
-    background-color: aliceblue;
-  }
-
-div.box {
-    padding: 0 30px;
-  }
+    padding: 20px 30px;
+    width: 980px;
+    margin: 70px auto 0 auto;
+}
+div.box2 {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 50px auto;
+    align-items: center;
+}
+div.box2 img {
+    grid-row: 1 / 3;
+}
+div.box2 p {
+    margin: 30px;
+    grid-column: 2 / 3;
+}
 div.box h2 {
-    margin-top: 25px;
+    margin-top: 45px;
 }
 div.box p {
     margin: 25px;
@@ -153,6 +173,9 @@ div.box p {
     border-radius:150px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
 }
+
+    /* Recetario */
+
 .grid-container {
 
     display: grid;
@@ -184,25 +207,108 @@ section.video {
     text-align: center;
 }
 
+    /* Contacto Showcase */
 
+.about-us video {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+}
+section.Contact {
+    height: 500px;
+}
+.contact-box {
+    width: 500px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    box-shadow: 0 0 20px 0 rgb(0, 0, 0);
+    top: 60%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+.about-us h1 {
+    padding: 10px;
+    position: absolute;
+    top: 40%;
+    right: 200px;
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 15px;
 
+}
+form {
+    margin: 35px;
+    padding: 0 20px;
+    background: rgba(255, 255, 255, 0.5);
+}
+form h4, form h5 {
+    background-color: rgb(255, 255, 255, 0.5);
+    padding: 10px;
+}
+.input-field {
+    font-family: 'poppins';
+    width: 400px;
+    height: 40px;
+    margin-top: 20px;
+    padding: 0 20px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 14px;
+    outline: none;
+}
+.textarea-field {
+    height: 150px;
+    padding-top: 10px;
+}
 
+/* Google Maps */
 
-  footer {
+section.maps {
+    text-align: center;
+    padding: auto;
+    margin: auto;
+}
+.maps h2 {
+    margin: 40px auto 20px auto;
+}
+div.mapas {
+    background-color: rgba(50, 50, 50, 0.5);
+    margin: 40px;
+}
+.mapas iframe {
+    border-radius: 25px;
+    justify-content: space-between;
+}
+
+/* Footer */
+
+footer {
     background-color: rgb(0, 0, 58);
     align-items: center;
     justify-items: center;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: auto auto auto auto;
     height: 250px;
     width: 100%;
     padding: 10px;
-  }
-  footer div {
+}
+footer div {
     background: none;
-  }
-  footer h2, footer p, footer nav, footer ul, footer li, footer i, footer a {
-    font-weight: 200;
+}
+footer h2, footer p, footer nav, footer ul, footer li, footer i, footer a {
+    font-weight: 200;    
     background: none;
     color: aliceblue;
-  }
+    
+}
+footer a:hover, footer i:hover {
+    color: crimson;
+    transition: all 0.4s ease 0s;    
+}
+footer div nav ul li a {
+    font-size: 23px;
+}
+a i {
+    margin: 15px;
+}
+
