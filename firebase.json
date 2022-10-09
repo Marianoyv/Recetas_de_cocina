@@ -1,8 +1,11 @@
 {
   "hosting": {
-    "site": "recetadelsapito",
+    "site": "recetasdelsapi",
     "public": "./",
     "ignore": [
+      ".firebase",
+      ".github",
+      ".json",
       "firebase.json",
       "**/.*",
       "**/node_modules/**"

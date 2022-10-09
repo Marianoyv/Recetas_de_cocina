@@ -1,8 +1,5 @@
 {
   "projects": {
-    "default": "pidevelopment",
-    "Recetas de Elsa": "pidevelopment"
-  },
-  "targets": {},
-  "etags": {}
+    "default": "recetas-de-elsa-pito"
+  }
 }
